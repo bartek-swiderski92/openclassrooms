@@ -71,3 +71,12 @@ h1 {
     background-color: grey;
     border: orangered 5px solid;
 }
+
+@media (max-width: 320px) {
+
+    a,
+    .square {
+        width: 100%;
+        margin: 10px auto;
+    }
+}
